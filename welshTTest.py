@@ -40,5 +40,5 @@ def compare_averages(filename):
         return (True, result)
     
     
-    
-    
+predicted_values=numpy.dot(features, theta)
+numpy.dot((predicted_values - values), features)
